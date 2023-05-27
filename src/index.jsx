@@ -5,4 +5,4 @@ import './style.css';
 
 export const API_BASE_URL = 'https://apps.kodim.cz/daweb/leviexpress/api';
 
-createRoot(document.querySelector('#app')).render(<App />, );
+createRoot(document.querySelector('#app')).render(<App />);
