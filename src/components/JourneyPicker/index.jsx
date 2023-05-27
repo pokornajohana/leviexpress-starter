@@ -37,7 +37,12 @@ export const JourneyPicker = ({ onJourneyChange }) => {
       });
   };
 
-  const submitDisabled = fromCity === '' || toCity === '' || date === '';
+  const submitDisabled =
+    fromCity === '' ||
+    toCity === '' ||
+    date === '' ||
+    fromCity === toCity ||
+    toCity === fromCity;
 
   return (
     <div className="journey-picker container">
