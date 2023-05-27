@@ -3,6 +3,7 @@ import './style.css';
 import { BusStop } from '../BusStop';
 
 export const JourneyDetail = ({ journey }) => {
+  console.log(journey);
   return (
     <>
       <div className="journey-detail container">
