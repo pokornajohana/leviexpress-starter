@@ -20,11 +20,6 @@ export const SelectedSeat = ({ number }) => {
           {number}
         </text>
       </svg>
-      <div className="controls container">
-        <button className="btn btn--big" type="button">
-          Rezervovat
-        </button>
-      </div>
     </div>
   );
 };
